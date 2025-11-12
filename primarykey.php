@@ -4,9 +4,10 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Document</title>
+     <link rel="stylesheet" href="primarykey.css">
 </head>
 <body>
-
+<div class="up">
 <h2>Sistema de Login com CPF</h2>
 <form method="POST">
      <label>Digite seu Nome: </label><br>
@@ -20,6 +21,7 @@
      <input type="submit" name="cadastrar" value="Cadastrar">
      <input type="submit" name="entrar" value="Entrar">
 </form>
+</div>
 <hr>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
